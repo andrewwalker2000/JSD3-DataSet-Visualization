@@ -1,0 +1,31 @@
+.axis-label {
+    text-anchor: middle;
+    font-size: 12px;
+    font-weight: semibold;
+}
+
+body {
+    font-family: "Open Sans";
+    margin: 0;
+}
+
+.bar {
+    fill: #4571C9;
+}
+
+.fatalities {
+    font-size: 10px;
+}
+
+.label {
+    font-size:  14px;
+}
+
+.axis line,
+.axis path {
+    stroke: #555;
+}
+
+#main {
+    margin: 20px;
+}
