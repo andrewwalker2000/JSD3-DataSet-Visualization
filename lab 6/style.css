@@ -1,0 +1,38 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+#main {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
+}
+/* styles for the svg element that contains the chart */
+svg {
+    width: 1000px;
+    height: 600px;
+    margin: 20px auto;
+  }
+  
+  /* styles for the select element that is used to select a category to display */
+  select {
+    font-size: 20px;
+    height: 40px;
+    margin: 20px auto;
+  }
+  
+  /* styles for the text labels on the x-axis and y-axis */
+  .axis text {
+    font-size: 14px;
+  }
+  
+  /* styles for the bubbles in the chart */
+  circle {
+    stroke: yellowgreen;
+    stroke-width: 2px;
+  }
+  

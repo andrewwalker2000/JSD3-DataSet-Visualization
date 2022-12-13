@@ -1,14 +1,27 @@
-
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Lab 6 - Project Lab - Transportation Fatalities By Year</title>
-        <link rel="stylesheet" href="./style.css">
-    </head>
-    <body>
-        <div id="chart">
-            <svg width="400" height="720" style="border: 1px solid #777;"></svg>
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 6 - Transportation Fatalities Visualization</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="main">
+        <svg width="720" height="400" style="border: 1px solid #777;">
+        </svg>
+        <div>
+            <label for="categorySelect">Year: </label>
+            <select class="custom-select" id="categorySelect" onchange="onCategoryChanged()">
+              <option selected value="total">Total</option>
+              <option value="car">Car Occupant</option>
+              <option value="pedestrian">Pedestrian</option>
+              <option value="motorcycle">Motorcycle</option>
+              <option value="bicycle">Bicycle</option>
+              <option value="truck">Trucks</option>
+            </select>
         </div>
-    </body>
+    </div>
+</body>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="./main.js"></script>
 </html>
