@@ -29,3 +29,16 @@ body {
 #main {
     margin: 20px;
 }
+
+.legendText {
+    font-size: 14px;
+}
+
+text.barText {
+    opacity: 0;
+    font-size: 10px;
+}
+
+g:hover text.barText {
+    opacity: 1;
+}
